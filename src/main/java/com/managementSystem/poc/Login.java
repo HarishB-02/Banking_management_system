@@ -15,6 +15,8 @@ public class Login extends JFrame implements ActionListener {
 
         setLayout(null);
 
+        System.out.println("Sample Text");
+
         ImageIcon image=new ImageIcon(ClassLoader.getSystemResource("bank_logo.jpg"));
         Image image1=image.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
         ImageIcon image2=new ImageIcon(image1);
